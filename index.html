@@ -15,9 +15,120 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app">
+        <img src="images/london.png" class="logo" alt="London Bridge" />
+        <form>
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Enter a city.."
+                class="form-control search-input"
+              />
+            </div>
+            <div class="col-3 p-0">
+              <input
+                type="submit"
+                class="btn btn-primary w-100"
+                value="Search"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="WeatherInfo">
+          <div class="row">
+            <div class="col-6">
+              <h1>London</h1>
+              <ul>
+                <li><span>Monday 17:00</span>, Clear</li>
+                <li>
+                  Humidity: <strong>52%</strong>, Wind:
+                  <strong>4.39km/h</strong>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="temperature-container d-flex justify-content-end">
+                <canvas width="52" height="52"></canvas>
+                <div>
+                  <span class="temperature">3</span><span class="unit">°C</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="WeatherForecast row">
+          <div class="col">
+            <div class="WeatherForecastPreview">
+              <div class="forecast-time">Mon</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">
+                <span class="forecast-temperature-max">5°</span
+                ><span class="forecast-temperature-min">1°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastPreview">
+              <div class="forecast-time">Tue</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">
+                <span class="forecast-temperature-max">5°</span
+                ><span class="forecast-temperature-min">1°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastPreview">
+              <div class="forecast-time">Wed</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">
+                <span class="forecast-temperature-max">7°</span
+                ><span class="forecast-temperature-min">4°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastPreview">
+              <div class="forecast-time">Thu</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">
+                <span class="forecast-temperature-max">13°</span
+                ><span class="forecast-temperature-min">6°</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="WeatherForecastPreview">
+              <div class="forecast-time">Fri</div>
+              <canvas width="38" height="38"></canvas>
+              <div class="forecast-temperature">
+                <span class="forecast-temperature-max">10°</span
+                ><span class="forecast-temperature-min">3°</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          This app code
+          <a
+            href="https://github.com/SKlandofcode/SK-Weather-app"
+            target="_blank"
+            >@GitHub</a
+          >
+          and hosted on
+          <a
+            href="https://competent-nightingale-b616f4.netlify.app/"
+            target="_blank"
+            >Netlify by Sri K;)</a
+          >
+        </footer>
+      </div>
+    </div>
+    <!-- <div class="container">
       <h1>Hello👋</h1>
       <a href="" class="btn btn-primary">Sri ;)</a>
-    </div>
+    </div> -->
     <script src="src/app.js"></script>
   </body>
 </html>
