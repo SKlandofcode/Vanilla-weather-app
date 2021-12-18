@@ -72,12 +72,12 @@ body {
 
 .WeatherInfo .unit {
   color: rgb(33, 33, 33);
-  font-size: 28px;
+  font-size: 16px;
   line-height: 36px;
   font-weight: normal;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -45px;
 }
 .container footer {
   font-size: 14px;
@@ -88,6 +88,19 @@ body {
 }
 .container footer a {
   color: #da6ffa;
+}
+/*temp conversion*/
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
 }
 /*forcast*/
 .WeatherForecast {
