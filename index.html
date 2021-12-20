@@ -45,29 +45,24 @@
         <div class="WeatherInfo">
           <div class="row">
             <div class="col-6">
-              <h1 id="city">London</h1>
+              <h1 id="city"></h1>
               <ul>
                 <li>
-                  <span id="date">Monday 17:00</span>,
-                  <span id="description">Clear</span>
+                  <span id="date"></span>,
+                  <span id="description"></span>
                 </li>
                 <li>
-                  Humidity: <span id="humidity">83%</span>, Wind:
-                  <span id="wind">14mph</span>
+                  Humidity: <span id="humidity"> %</span>, Wind:
+                  <span id="wind"> mph</span>
                 </li>
               </ul>
             </div>
             <div class="col-6">
               <div class="temperature-container d-flex justify-content-end">
-                <img
-                  src="images/rainy.svg"
-                  class="rain"
-                  alt="It is rainy"
-                  id="icon"
-                />
+                <img src="" alt="" id="icon" />
                 <!--temp conversion-->
                 <div>
-                  <span class="temperature">3</span
+                  <span class="temperature"></span
                   ><span class="unit"
                     ><a href="#" id="celsius-link" class="active">°C |</a>
                     <a href="#" id="fahrenheit-link">°F</a></span
@@ -79,20 +74,7 @@
         </div>
         <!--weather forcast-->
         <div class="WeatherForecast row" id="forecast">
-          <div class="col">
-            <div class="WeatherForecastPreview">
-              <div class="forecast-time">Mon</div>
-              <img
-                src="http://openweathermap.org/img/wn/50d@2x.png"
-                alt=""
-                width="42"
-              />
-              <div class="forecast-temperature">
-                <span class="forecast-temperature-max">5°</span
-                ><span class="forecast-temperature-min">1°</span>
-              </div>
-            </div>
-          </div>
+          <!--this section moved in js function forcastDisplay -->
         </div>
 
         <footer>
